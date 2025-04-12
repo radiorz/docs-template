@@ -9,3 +9,11 @@
 任务进度 项目设计后就可以进行任务工时评估和进度管理
 开发部署 主要指导开发人员如何开发与部署项目
 实际开发 具体难点重点的文档
+
+## 获取此模板
+
+```bash
+mkdir docs
+git clone git@github.com:radiorz/docs-template.git docs 
+rm docs/.git -rf
+```
