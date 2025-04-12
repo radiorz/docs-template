@@ -15,5 +15,12 @@
 ```bash
 mkdir docs
 git clone git@github.com:radiorz/docs-template.git docs 
+# linux only
 rm docs/.git -rf
+```
+
+如果你用windows powershell 那么
+```bash
+Remove-Item -Path "docs\.git" -Recurse -Force
+
 ```
